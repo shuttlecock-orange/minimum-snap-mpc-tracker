@@ -1,0 +1,8 @@
+prefix=/home/czj/MPC_ws/devel
+
+Name: servingbot_fake
+Description: Description of servingbot_fake
+Version: 0.1.0
+Cflags: -I/home/czj/MPC_ws/src/servingbot/serving_mobile/serving_simuation/servingbot_fake/include
+Libs: -L${prefix}/lib -lservingbot_fake_node
+Requires: geometry_msgs nav_msgs roscpp sensor_msgs std_msgs tf servingbot_msgs

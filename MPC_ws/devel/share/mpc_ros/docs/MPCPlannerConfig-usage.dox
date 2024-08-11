@@ -1,0 +1,43 @@
+\subsubsection usage Usage
+\verbatim
+<node name="mpc_ros" pkg="mpc_ros" type="mpc_ros">
+  <param name="max_vel_trans" type="double" value="0.55" />
+  <param name="min_vel_trans" type="double" value="0.1" />
+  <param name="max_vel_x" type="double" value="0.55" />
+  <param name="min_vel_x" type="double" value="0.0" />
+  <param name="max_vel_y" type="double" value="0.1" />
+  <param name="min_vel_y" type="double" value="-0.1" />
+  <param name="max_vel_theta" type="double" value="1.0" />
+  <param name="min_vel_theta" type="double" value="0.4" />
+  <param name="acc_lim_x" type="double" value="2.5" />
+  <param name="acc_lim_y" type="double" value="2.5" />
+  <param name="acc_lim_theta" type="double" value="3.2" />
+  <param name="acc_lim_trans" type="double" value="0.1" />
+  <param name="prune_plan" type="bool" value="False" />
+  <param name="xy_goal_tolerance" type="double" value="0.1" />
+  <param name="yaw_goal_tolerance" type="double" value="0.1" />
+  <param name="trans_stopped_vel" type="double" value="0.1" />
+  <param name="theta_stopped_vel" type="double" value="0.1" />
+  <param name="debug_info" type="bool" value="False" />
+  <param name="delay_mode" type="bool" value="True" />
+  <param name="max_speed" type="double" value="0.5" />
+  <param name="waypoints_dist" type="double" value="-1.0" />
+  <param name="path_length" type="double" value="5.0" />
+  <param name="controller_freq" type="double" value="10.0" />
+  <param name="steps" type="double" value="20.0" />
+  <param name="ref_cte" type="double" value="0.0" />
+  <param name="ref_vel" type="double" value="1.0" />
+  <param name="ref_etheta" type="double" value="0.0" />
+  <param name="w_cte" type="double" value="1000.0" />
+  <param name="w_etheta" type="double" value="1000.0" />
+  <param name="w_vel" type="double" value="100.0" />
+  <param name="w_angvel" type="double" value="100.0" />
+  <param name="w_angvel_d" type="double" value="0.0" />
+  <param name="w_accel" type="double" value="50.0" />
+  <param name="w_accel_d" type="double" value="10.0" />
+  <param name="max_angvel" type="double" value="1.0" />
+  <param name="max_throttle" type="double" value="1.0" />
+  <param name="bound_value" type="double" value="1000.0" />
+</node>
+\endverbatim
+

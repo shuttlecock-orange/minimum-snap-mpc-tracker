@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/czj/MPC_ws/devel/lib/python3/dist-packages",
+        "/home/czj/racecar_ws/devel/lib/python3/dist-packages",
+        "/home/czj/turtlebot_ws/devel/lib/python3/dist-packages",
+        "/home/czj/tianbot_ws/devel/lib/python3/dist-packages",
+        "/home/czj/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/czj/MPC_ws/devel/lib/python3/dist-packages",
+        "/home/czj/racecar_ws/devel/lib/python3/dist-packages",
+        "/home/czj/turtlebot_ws/devel/lib/python3/dist-packages",
+        "/home/czj/tianbot_ws/devel/lib/python3/dist-packages",
+        "/home/czj/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

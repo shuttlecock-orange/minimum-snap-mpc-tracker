@@ -1,0 +1,7 @@
+set(servingbot_teleop_SETUP_PY_SETUP_MODULE "distutils.core")
+set(servingbot_teleop_SETUP_PY_VERSION "0.1.0")
+set(servingbot_teleop_SETUP_PY_SCRIPTS "")
+set(servingbot_teleop_SETUP_PY_PACKAGES "servingbot_teleop")
+set(servingbot_teleop_SETUP_PY_PACKAGE_DIRS "src/servingbot_teleop")
+set(servingbot_teleop_SETUP_PY_MODULES "")
+set(servingbot_teleop_SETUP_PY_MODULE_DIRS "")

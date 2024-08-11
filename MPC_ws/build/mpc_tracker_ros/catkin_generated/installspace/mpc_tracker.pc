@@ -1,0 +1,8 @@
+prefix=/home/czj/MPC_ws/install
+
+Name: mpc_tracker
+Description: Description of mpc_tracker
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp tf2 tf2_ros tf2_geometry_msgs

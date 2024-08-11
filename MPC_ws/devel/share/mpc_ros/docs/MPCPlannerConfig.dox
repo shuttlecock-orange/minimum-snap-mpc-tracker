@@ -1,0 +1,42 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~max_vel_trans" : \b [double] The absolute value of the maximum translational velocity for the robot in m/s min: 0.0, default: 0.55, max: std::numeric_limits<double>::infinity()
+- \b "~min_vel_trans" : \b [double] The absolute value of the minimum translational velocity for the robot in m/s min: 0.0, default: 0.1, max: std::numeric_limits<double>::infinity()
+- \b "~max_vel_x" : \b [double] The maximum x velocity for the robot in m/s min: -std::numeric_limits<double>::infinity(), default: 0.55, max: std::numeric_limits<double>::infinity()
+- \b "~min_vel_x" : \b [double] The minimum x velocity for the robot in m/s min: -std::numeric_limits<double>::infinity(), default: 0.0, max: std::numeric_limits<double>::infinity()
+- \b "~max_vel_y" : \b [double] The maximum y velocity for the robot in m/s min: -std::numeric_limits<double>::infinity(), default: 0.1, max: std::numeric_limits<double>::infinity()
+- \b "~min_vel_y" : \b [double] The minimum y velocity for the robot in m/s min: -std::numeric_limits<double>::infinity(), default: -0.1, max: std::numeric_limits<double>::infinity()
+- \b "~max_vel_theta" : \b [double] The absolute value of the maximum rotational velocity for the robot in rad/s min: 0.0, default: 1.0, max: std::numeric_limits<double>::infinity()
+- \b "~min_vel_theta" : \b [double] The absolute value of the minimum rotational velocity for the robot in rad/s min: 0.0, default: 0.4, max: std::numeric_limits<double>::infinity()
+- \b "~acc_lim_x" : \b [double] The acceleration limit of the robot in the x direction min: 0.0, default: 2.5, max: 20.0
+- \b "~acc_lim_y" : \b [double] The acceleration limit of the robot in the y direction min: 0.0, default: 2.5, max: 20.0
+- \b "~acc_lim_theta" : \b [double] The acceleration limit of the robot in the theta direction min: 0.0, default: 3.2, max: 20.0
+- \b "~acc_lim_trans" : \b [double] The absolute value of the maximum translational acceleration for the robot in m/s^2 min: 0.0, default: 0.1, max: std::numeric_limits<double>::infinity()
+- \b "~prune_plan" : \b [bool] Start following closest point of global plan, not first point (if different). min: False, default: False, max: True
+- \b "~xy_goal_tolerance" : \b [double] Within what maximum distance we consider the robot to be in goal min: -std::numeric_limits<double>::infinity(), default: 0.1, max: std::numeric_limits<double>::infinity()
+- \b "~yaw_goal_tolerance" : \b [double] Within what maximum angle difference we consider the robot to face goal direction min: -std::numeric_limits<double>::infinity(), default: 0.1, max: std::numeric_limits<double>::infinity()
+- \b "~trans_stopped_vel" : \b [double] Below what maximum velocity we consider the robot to be stopped in translation min: -std::numeric_limits<double>::infinity(), default: 0.1, max: std::numeric_limits<double>::infinity()
+- \b "~theta_stopped_vel" : \b [double] Below what maximum rotation velocity we consider the robot to be stopped in rotation min: -std::numeric_limits<double>::infinity(), default: 0.1, max: std::numeric_limits<double>::infinity()
+- \b "~debug_info" : \b [bool] Debug information min: False, default: False, max: True
+- \b "~delay_mode" : \b [bool] Delay mode min: False, default: True, max: True
+- \b "~max_speed" : \b [double] Maximum speed [m/s] min: 0.01, default: 0.5, max: 5.0
+- \b "~waypoints_dist" : \b [double] Waypoint distance [m] min: -1.0, default: -1.0, max: 10.0
+- \b "~path_length" : \b [double] Path length [m] min: 0.0, default: 5.0, max: 10.0
+- \b "~controller_freq" : \b [double] Controller Frequency min: 0.01, default: 10.0, max: 100.0
+- \b "~steps" : \b [double] Steps min: 0.0, default: 20.0, max: 100.0
+- \b "~ref_cte" : \b [double] Reference Cross Track Error min: 0.0, default: 0.0, max: 10.0
+- \b "~ref_vel" : \b [double] Reference Velocity min: 0.0, default: 1.0, max: 5.0
+- \b "~ref_etheta" : \b [double] Reference Error theta min: 0.01, default: 0.0, max: 5.0
+- \b "~w_cte" : \b [double] Weight of Cross Track Error min: 0.01, default: 1000.0, max: 5000.0
+- \b "~w_etheta" : \b [double] Weight of Error Theta min: 0.01, default: 1000.0, max: 5000.0
+- \b "~w_vel" : \b [double] Weight of Velocity min: 0.01, default: 100.0, max: 1000.0
+- \b "~w_angvel" : \b [double] Weight of Angular velocity min: 0.01, default: 100.0, max: 1000.0
+- \b "~w_angvel_d" : \b [double] Weight of Angular velocity difference min: 0.01, default: 0.0, max: 1000.0
+- \b "~w_accel" : \b [double] Weight of Acceleration min: 0.01, default: 50.0, max: 1000.0
+- \b "~w_accel_d" : \b [double] Weight of Acceleration difference min: 0.01, default: 10.0, max: 1000.0
+- \b "~max_angvel" : \b [double] Maximum Angular velocity min: 0.01, default: 1.0, max: 5.0
+- \b "~max_throttle" : \b [double] Maximum Throttle min: 0.01, default: 1.0, max: 5.0
+- \b "~bound_value" : \b [double] Bound value min: 0.01, default: 1000.0, max: 1000.0
+
