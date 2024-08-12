@@ -89,6 +89,7 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp",
-        "bit": "cpp"
+        "bit": "cpp",
+        "alignedvector3": "cpp"
     }
 }

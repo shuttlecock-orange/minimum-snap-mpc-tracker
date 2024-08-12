@@ -4695,6 +4695,7 @@ mpc_tracker_ros/CMakeFiles/mpc_tracker_node.dir/src/mpc_tracker_core.cpp.o
  /opt/ros/noetic/include/ros/wall_timer.h
  /opt/ros/noetic/include/ros/wall_timer_options.h
  /opt/ros/noetic/include/rosconsole/macros_generated.h
+ /opt/ros/noetic/include/sensor_msgs/Imu.h
  /opt/ros/noetic/include/std_msgs/ColorRGBA.h
  /opt/ros/noetic/include/std_msgs/Empty.h
  /opt/ros/noetic/include/std_msgs/Float32.h
@@ -6588,6 +6589,7 @@ mpc_tracker_ros/CMakeFiles/mpc_tracker_node.dir/src/mpc_tracker_node.cpp.o
  /opt/ros/noetic/include/ros/wall_timer.h
  /opt/ros/noetic/include/ros/wall_timer_options.h
  /opt/ros/noetic/include/rosconsole/macros_generated.h
+ /opt/ros/noetic/include/sensor_msgs/Imu.h
  /opt/ros/noetic/include/std_msgs/ColorRGBA.h
  /opt/ros/noetic/include/std_msgs/Empty.h
  /opt/ros/noetic/include/std_msgs/Float32.h
