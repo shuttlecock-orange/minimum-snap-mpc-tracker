@@ -1756,5 +1756,4 @@ mpc_tracker_ros/CMakeFiles/mpc_tracker_node.dir/src/mpc_tracker_node.cpp.o: \
  /home/czj/MPC_ws/src/mpc_tracker_ros/include/mpc_tracker/Pose.hpp \
  /home/czj/MPC_ws/src/mpc_tracker_ros/include/mpc_tracker/Twist.hpp \
  /opt/ros/noetic/include/ackermann_msgs/AckermannDriveStamped.h \
- /opt/ros/noetic/include/ackermann_msgs/AckermannDrive.h \
- /opt/ros/noetic/include/sensor_msgs/Imu.h
+ /opt/ros/noetic/include/ackermann_msgs/AckermannDrive.h
